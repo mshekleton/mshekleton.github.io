@@ -1,4 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Home - My Portfolio</title>
+    <style>
+        .navbar-brand img {
+            width: 40px;  /* Adjust the width as needed */
+            height: 40px; /* Adjust the height as needed */
+            border-radius: 50%; /* Make the image round */
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand"><img src="me.jpeg" alt="My Image"></a>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="projects.html">Projects</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="ham_radio.html">Amateur Radio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
 <div class="mt-5">
-    <h2>PSK Reporter Map</h2>
+    <h4>N1SAT FT8 Activity over the Past 24 Hours</h4>
     <iframe src="https://pskreporter.info/pskmap.html?preset&callsign=N1SAT&txrx=tx&mode=FT8&timerange=86400&blankifnone=1&hidelight=1&showgrid=1&hidemax=1&mapCenter=35.57330228536547,-61.36916743954395,3.3886586166085113" width="100%" height="600"></iframe>
 </div>
